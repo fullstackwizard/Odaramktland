@@ -1,0 +1,100 @@
+@charset "utf-8";
+@media (max-width: 992px) {
+  .comparar-planos .p-valor h2 {
+    font-size: 24px;
+  }
+  .footer-list {
+    text-align: center;
+  }
+  footer .footer-list hr {
+    margin: 20px auto;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .em-list li {
+    width: 20%;
+  }
+}
+@media (min-width: 680px) and (max-width: 767px) {
+  .em-list li {
+    width: 25%;
+  }
+}
+@media (max-width: 679px) {
+  .em-list li {
+    width: 45%;
+  }
+  .em-banner.banner-email .em-header {
+    padding: 50px 0;
+  }
+}
+@media (max-width: 480px) {
+  .hospedagem-list {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .hospedagem-list .h-footer h4 {
+    margin-top: 10px;
+  }
+  .header-dominio li {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+  }
+  .header-dominio h1 {
+    font-size: 48px;
+  }
+  .direcione-sec h1 {
+    font-size: 29px;
+    line-height: 35px;
+  }
+  .dominio-txt {
+    padding: 50px 0;
+  }
+  .servicos-ad-list .s-valor h2 {
+    line-height: 35px;
+  }
+  .all-list .a-content {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .parceiros-search .container > h1 {
+    font-size: 37px;
+    line-height: 43px;
+  }
+  .bg-flex-sec {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .parceiros-search {
+    padding: 60px 0;
+  }
+  .parceiros-dados .captcha img {
+    width: 100%;
+  }
+  .parceiros-dados li {
+    margin-bottom: 15px;
+  }
+  .em-vantagens {
+    padding: 70px 0;
+  }
+  .form-header h3,
+  .form-header h5 {
+    text-align: left;
+  }
+  .input-group {
+    margin-bottom: 15px;
+  }
+  .input-cont img {
+    width: 100%;
+    max-width: 390px;
+  }
+}
+@media (max-width: 980px) {
+  .bt-responsive {
+    display: block;
+  }
+  .menu {
+    display: none;
+  }
+}
